@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<header>
+    <style>
+        p{
+            font-size: 14px;
+            color: gray;
+            margin-left: 6px;
+            font:Roboto;
+        }
+        img{
+            display: block;
+            width: 40px;
+            height: 40px;
+            border-radius: 20px;
+            object-fit: cover;
+            margin-bottom: 8px;
+        }
+        .side-bar1{
+            position: fixed;
+            left: 0;
+            top: 0;
+            bottom: 0;
+            width:60px;
+            justify-items: center;
+            padding-top: 20px;
+            background-color: rgb(56, 55, 55);
+        }
+        .side-bar2{
+            position: fixed;
+            left: 60px;
+            top: 0;
+            bottom: 0;
+            width: 180px;
+            padding-top: 10px;
+            background-color: rgb(102, 101, 101);
+        }
+    </style>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+</header>
+<body>
+    <div class="side-bar1">
+        <img src="/thumbnail/cat.jpg">
+        <img src="/thumbnail/cat2.jpg">
+        <img src="/thumbnail/dog.jpg">
+    </div>
+    <div class="side-bar2">
+        <div style="display:flex;">
+             <p style="color: white;flex: 1;margin-left: 10px;"><strong>INFO</strong></p>
+             <p style="width: 30px;">+</p>
+        </div>
+        <p># new-videos</p>
+        <p># update</p>
+        <p># faq</p>
+    </div>
+</body>
+</html>

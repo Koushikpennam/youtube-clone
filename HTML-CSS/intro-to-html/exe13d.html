@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>EXERCISE 13c</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <style>
+        div{
+            font-family: Roboto;
+            font-size: 14px;
+        }
+        .container{
+            border-radius:4px;
+            border-style: solid;
+            border-width: 1px;
+            width:340px;
+            padding: 10px;
+            border-color: rgb(223, 221, 221);
+        }
+        .profiles{
+            margin-top: 20px;
+        }
+        .image{
+            width: 40px;
+            height: 40px;
+            border-radius: 25px;
+            margin-right: 10px;
+            object-fit: cover;
+        }
+        .flexbox{
+            display: flex;
+            align-items: center;
+        }
+        .about{
+            display: flex;
+            justify-content: space-between;
+            width: 290px;
+        }
+        .name{
+            font-weight: bold;
+        }
+        .bio{
+            color: gray;
+        }
+        .time{
+            color: gray;
+        }
+    </style>
+</head>
+<body style="margin-left: 100px;">
+    <div class="container">
+        <div class="bio"> ALL INBOXES</div>
+        <div class="profiles">
+            <div class="flexbox">
+                <img  class="image" src="/thumbnail/cat.jpg">
+                <div>
+                    <div class="about">
+                        <div class="name">Chewy Promotions </div>
+                        <div class="time">4:58 PM</div>
+                    </div>
+                    <div class="name">Biggest Sales of the Year!</div>
+                    <div class="bio">Hey there! We're writing to tell you about our...</div>
+                </div>
+            </div>
+        </div>
+
+        <div class="profiles">
+            <div class="flexbox">
+                <img  class="image" src="/thumbnail/dog.jpg">
+                <div>
+                    <div class="about">
+                        <div class="name">Best Guy</div>
+                        <div class="time">12:32 PM</div>
+                    </div>
+                    <div class="name">your Best Buy eReceipt</div>
+                    <div class="bio">Hey there! We're writing to tell you about our...</div>
+                </div>
+            </div>
+        </div>
+
+        <div class="profiles">
+            <div class="flexbox">
+                <img  class="image" src="/thumbnail/cat2.jpg">
+                <div>
+                    <div class="about">
+                        <div class="name">Netflix </div>
+                        <div class="time">9:00 AM</div>
+                    </div>
+                    <div class="name">Here's what's coming soon to Netflix</div>
+                    <div class="bio">Hey there! We're writing to tell you about our...</div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

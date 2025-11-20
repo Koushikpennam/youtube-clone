@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title> flexbox-practice</title>
+</head>
+<body style="padding-bottom: 500px;">
+    <div style="display: flex;flex-direction: row;">
+        <div style="background-color:aquamarine;width:200px;">200px</div>
+        <div style="background-color: pink;width: 75px;">75px</div>
+    </div>
+    <div style="display: flex; flex-direction: row;">
+        <div style="width: 50px;background-color: aquamarine;">item1</div>
+        <div style="flex: 1;background-color: pink;">item2</div>
+        <div style="width: 75px;background-color: aquamarine;">item3</div>
+    </div>
+    <div style="display: flex;flex-direction: row;justify-content: space-between;">
+        <div style="background-color: pink;">item1</div>
+        <div style="background-color: pink;">item2</div>
+        <div style="background-color: pink;">item3</div>
+        <div style="background-color: pink;">item4</div>
+    </div>
+    <div style="display: flex;flex-direction: row;height: 50px;border-color: gray;border-width: 1px;border-style:solid;justify-content: space-between;align-items: center;">
+        <div style="background-color: pink;">item1</div>
+        <div style="background-color: pink;">item2</div>
+    </div>
+    <div style="border-color:gray;border-style: solid;padding: 10px;width: 310px;border-width:1px;border-radius:4px;">
+        <div style="display: flex; flex-direction: row; justify-content: space-between;align-items: center;padding-top: 6px;padding-bottom: 6px;">
+            <div> Home</div>
+            <div style="padding: 10px;padding-top: 2px; padding-bottom: 2px; background-color: blue;color: white;border-radius: 15px; font-weight: bold;">14</div>
+        </div>
+        <div style="display: flex; flex-direction: row; width: 300px; justify-content: space-between;">
+            <div>Notifications</div>
+            <div style="padding: 10px;padding-top: 2px; padding-bottom: 2px; background-color: blue;color: white;border-radius: 15px; font-weight: bold;">3</div>
+        </div>
+        <div style="display: flex; flex-direction: row; width: 300px; justify-content: space-between;">
+            <div>Messages</div>
+            <div style="padding: 10px;padding-top: 3px; padding-bottom: 3px; background-color: blue;color: white;border-radius: 15px; font-weight: bold;">5</div>
+        </div>
+    </div>
+    <div style="display:flex;flex-direction:row;font-size: 20px;font-family:arial; height: 60px;background-color: blueviolet;justify-content:space-between;align-items:center;">
+        <div style="color: white;width: 100px;padding-left: 15px;">Home</div>
+        <input type="text" placeholder="Search" style="max-width:400px; height: 27px;padding-left: 20px;flex: 1;border-radius: 45px;border: none;">
+        <div style="width: 100px; margin-left: 60px;"><button style="padding:6px;padding-left: 10px;padding-right: 10px;background-color: blueviolet;color:wheat;border-width: 1px;border-color: whitesmoke;border-style: solid;">Download</button></div>
+    </div>
+    </body>
+</html>

@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>tooltippractise</title>
+<style>
+    .open-button{
+        padding: 5px;
+        color: white;
+        background-color: rgb(182, 233, 116);
+        cursor: pointer;
+        border: none;
+        position: relative;
+    }
+    .tooltip-txt{
+        position: absolute;
+        top: 20px;
+        right: -10px;
+        color: white;
+        background-color: gray;
+        padding: 10px;
+        opacity: 0;
+        transition: 0.15s;
+        pointer-events: none;
+        white-space: nowrap; 
+    }
+    .open-button:hover .tooltip-txt{
+        opacity: 1;
+    }
+</style>
+</head>
+<body>
+    <div style="display: flex;">
+            <button class="open-button">open
+            <p class="tooltip-txt">open</p>
+            </button>
+    </div>
+</body>
+</html>

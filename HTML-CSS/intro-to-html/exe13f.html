@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<header>
+    <title>exercise 13f</title>
+    <style>
+        div{
+            font-size: 18px;
+        }
+        .from{
+            display:flex;
+        }
+        .profile{
+            width: 60px;
+            height: 60px;
+            object-fit: cover;
+            border-radius: 30px;
+            margin-right: 10px;
+        }
+        .discriptions{
+            width: 350px;
+            margin-top: 4px;
+        }
+        .container{
+            margin-top: 10px;
+            width: 350px;
+            height: 100px;
+            border-style:solid;
+            border-radius: 15px;
+            border-width: 1px;
+            border-color: rgb(233, 228, 228);
+            display: flex;
+            align-items: center;
+            overflow: hidden;
+            flex-shrink: 0px;
+        }
+        .empty{
+            width: 100px;
+            height: 100px;
+            background-color: rgb(206, 203, 203);
+            margin-right: 10px;
+        }
+    </style>
+</header>
+<body>
+    <div class="from">
+        <img class="profile" src="/thumbnail/cat.jpg">
+        <div>
+            <div class="email-id"> <strong>koushikmanipennam</strong> @gmail.com</div>
+            <div class="discriptions">What is backend web development? A complete overview. New video is up!</div>
+            <div class="container">
+                <div class="empty"></div>
+                <div style="flex: 1;">
+                    <div style="color: gray;"> youtube.com</div>
+                    <div>Backend web development -a complete overview (2021)</div>
+                </div>
+            </div>
+        </div>
+    </div>    
+</body>
+</html>

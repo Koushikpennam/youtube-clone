@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>exerce 10e</title>
+    <style>
+        .profile{
+            display: inline-block;
+            width: 130px;
+            height: 218px;
+            box-shadow: 0px 0px 5px rgba(0,0,0,0.3);
+            margin: 5px;
+        }
+        p{
+            font-size: 12px;
+            margin-top: 0px;
+            margin-bottom: 0px;
+        }
+        .profile-picture{
+            width: 130px;
+            height: 130px;
+            margin-bottom: 8px;
+            object-fit: cover;
+        }
+        .name{
+            font-weight: bold;
+            font-size: 12px;
+            margin-left: 2px;
+        }
+        .mutual-img,
+        .mutual-no{
+            display: inline-block;
+            margin-top: 6px;
+            margin-bottom: 6px;
+            margin-left: 2px;
+        }
+        .mutual{
+            width: 20px;
+            height: 20px;
+            object-fit: cover;
+            border-radius: 20px;
+            vertical-align: top;
+        }
+        .frd-details{
+            font-size: 10px;
+            color: gray;
+        }
+        .add-friend{
+            background-color: rgba(24, 24, 252, 0.856);
+            color: white;
+            font-weight: bold;
+            font-size: 10px;
+            border-radius: 3px;
+            border: none;
+            cursor: pointer;
+            padding: 6px;
+            padding-bottom: 4px;
+            padding-top: 4px;
+            margin-left: 2px;
+        }
+
+    </style>
+</head> 
+<body>
+    <div class="profile">
+        <img class="profile-picture" src="/thumbnail/cat.jpg">
+        <p class="name">Oliver</p>
+        <div class="mutual-img">
+            <img class="mutual" src="/thumbnail/dog2.jpg">
+        </div>
+        <div class="mutual-no">
+            <p class="frd-details">2 mutual friends</p>            
+        </div>
+        <button class="add-friend">Add Friend</button>
+    </div>
+    <div class="profile">
+        <img class="profile-picture" src="/thumbnail/cat2.jpg">
+        <p class="name">Mimi</p>
+        <div class="mutual-img">
+            <img class="mutual" src="/thumbnail/dog2.jpg">
+        </div>
+        <div class="mutual-no">
+            <p class="frd-details">3 mutual friends</p>            
+        </div>
+        <button class="add-friend">Add Friend</button>
+    </div>
+    <div class="profile">
+        <img class="profile-picture" src="/thumbnail/dog.jpg">
+        <p class="name">Rex</p>
+        <div class="mutual-img">
+            <img class="mutual" src="/thumbnail/dog2.jpg">
+        </div>
+        <div class="mutual-no">
+            <p class="frd-details">4 mutual friends</p>            
+        </div>
+        <button class="add-friend">Add Friend</button>
+    </div>
+</body>
+</html>

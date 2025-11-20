@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<header>
+    <title>exercise14</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <style>
+        .rightbar{
+            position: fixed;
+            right: 0;
+            width: 100px;
+            top: 0;
+            bottom: 0;
+            background-color: green;
+            color: white;
+        }
+        .overlay{
+            position: fixed;
+            top: 0;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            background-color: rgba(0,0,0,0.8);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        .mid-section{
+            background-color: white;
+            width: 250px;
+            height: 130px;
+            border-radius: 6px;
+            padding-left: 10px;
+        }
+    </style>
+</header>
+<body style="padding-bottom: 1000px;">
+    <div class="rightbar"> 
+        right sidebar
+    </div>
+
+    <div>
+        <div class="overlay">
+            <div class="mid-section">
+                <p style="font-size: 18px;font-weight: bold;font-family: Roboto;"> Model Title</p>
+                <p>This is a modal</p>
+                <button style="cursor: pointer;
+                background-color:rgb(219, 217, 217);border-width:1px;border-style: solid;padding: 4px;">close</button>
+            </div>
+        </div>
+    </div>
+    </body>
+</html>
